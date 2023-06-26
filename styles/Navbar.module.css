@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    padding: 1rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    text-decoration: none; 
+    color: #333;
+    width: 7rem;
+    height: 2.3rem;
+    margin-right: 10px;
+  }
+
+  
+  .nav_links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav_links li {
+    margin: 0 2rem;
+    
+  }
+  
+  .nav_links a {
+    color:black;
+    font-size: 1.1rem;
+    line-height: normal;
+    font-weight: 500;
+    font-family: "poppins";
+    text-decoration: none;
+  }
+
+  .nav_links li:hover{
+    border-radius: 0.4rem;
+  }
+  
+  .nav_links a:hover{
+    color: rgb(4,150,104);
+
+  }
+  
+  .nav_links button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(4,150,104);
+    width: 6rem;
+    height: 2.3rem;
+    border: 0;
+    border-radius: 1rem;
+  }
